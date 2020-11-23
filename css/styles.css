@@ -157,6 +157,7 @@ img {
   align-items: center;
 }
 
+/* ! */
 .navigation-list-item:not(:last-child) {
   margin-right: 50px;
   margin-top: 32px;
@@ -218,8 +219,24 @@ img {
   border: 1px solid #ececec;
 }
 
-/* ! ========================= Hero ========================= */
+.current {
+  position: relative;
+}
 
+.current::after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 4px;
+  background: #2196f3;
+  border-radius: 2px;
+  margin-top: 28px;
+
+  align-items: baseline;
+}
+
+/* ! ========================= Hero ========================= */
 .hero {
   max-width: 1600px;
   margin: 0 auto;
@@ -468,7 +485,7 @@ img {
 
 .clients-link:hover,
 .clients-link:focus {
-  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 .clients-link {
@@ -484,11 +501,8 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .client-logo-svg:hover {
-  fill: var(--accent-color);
-} */
-
-.clients-link:hover .client-logo-svg {
+.clients-link:hover .client-logo-svg,
+.clients-link:focus .client-logo-svg {
   fill: var(--accent-color);
 }
 

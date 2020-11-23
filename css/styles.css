@@ -647,6 +647,7 @@ img {
 
 /* ! ВЛИЯЕТ НА РАЗМЕР В КОНТЕЙНЕРЕ... */
 .work-samples-item {
+  width: 370px;
   border: 1px solid #eeeeee;
 }
 

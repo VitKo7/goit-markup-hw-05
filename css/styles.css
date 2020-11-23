@@ -199,9 +199,8 @@ img {
   fill: var(--primary-text-color);
 }
 
-/* todo почему focus не работает? */
-.header-contact-item:hover,
-.header-contact-item:focus {
+.contact-link:hover .contact-item-svg,
+.contact-link:focus .contact-item-svg {
   fill: var(--accent-color);
 }
 
@@ -646,10 +645,12 @@ img {
   margin-top: 30px;
 }
 
-/* .work-samples-item:hover {
-  background: #ffffff;
+/* ! ВЛИЯЕТ НА РАЗМЕР В КОНТЕЙНЕРЕ... */
+.work-samples-item {
   border: 1px solid #eeeeee;
-  box-sizing: border-box;
+}
+
+.work-samples-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-} */
+}

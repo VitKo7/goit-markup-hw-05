@@ -289,7 +289,7 @@ img {
 /* ! ========================= Features ========================= */
 
 .features-section {
-  padding: 94px 0;
+  padding: 94px 0 0;
 }
 
 .section .features {
@@ -349,7 +349,7 @@ img {
 /* ! ========================= SERVICES ========================= */
 
 .services-section {
-  padding: 94px 0;
+  padding: 94px 0 0;
 }
 
 .services-list {
@@ -535,7 +535,7 @@ img {
   margin: 0 auto;
   color: var(--primary-white-color);
   background-color: var(--footer-background);
-  /* padding: 60px 0; */
+  padding: 60px 0;
 }
 
 .footer .logo-Studio {
@@ -568,9 +568,6 @@ img {
 .footer-combine {
   display: flex;
 }
-.footer-address {
-  margin: 60px 0;
-}
 
 .slogan {
   color: var(--primary-white-color);
@@ -584,7 +581,7 @@ img {
   margin-bottom: 20px;
 }
 .footer-social {
-  margin-top: 72px;
+  margin-top: 12px;
   /* margin-bottom: 100px;  */
   margin-left: 70px;
 }
